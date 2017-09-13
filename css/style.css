@@ -1,0 +1,234 @@
+    html {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6s {
+        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    #details {
+        margin-bottom: 8%;
+    }
+    
+    #inputresults {
+        margin-top: 2%;
+    }
+    
+    h2 {
+        color: #DD0E1C;
+    }
+    
+    body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px
+    }
+    
+    form {
+        display: inline-block;
+    }
+    
+    #homeForm {
+        padding-top: 2%;
+    }
+    
+    .intro-header {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        text-align: center;
+        color: #f8f8f8;
+    }
+    
+    .intro-message {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .intro-message>h1 {
+        margin: 0;
+        text-shadow: 2px 2px 3px white;
+        font-size: 5em;
+    }
+
+    .wallinside {
+        background-image: linear-gradient(96deg, #fff 2%, #ffe6e6 98%);
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        background-size: cover;
+    }
+    
+    .intro-divider {
+        width: 400px;
+        border-top: 1px solid #f8f8f8;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        margin: auto;
+    }
+    
+    .intro-message>h3 {
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    }
+    
+    @media(max-width:767px) {
+        .intro-message {
+            padding-bottom: 15%;
+        }
+        .intro-message>h1 {
+            font-size: 3em;
+        }
+        ul.intro-social-buttons>li {
+            display: block;
+            margin-bottom: 20px;
+            padding: 0;
+        }
+        ul.intro-social-buttons>li:last-child {
+            margin-bottom: 0;
+        }
+        .intro-divider {
+            width: 100%;
+        }
+    }
+    
+    button {
+        background: #DD0E1C;
+        border-radius: 5px;
+        border: 1px solid #DD0E1C;
+        color: #fff;
+        height: 33px;
+        transition: .5s;
+    }
+    
+    .form-control:active {
+        box-shadow: none;
+        border: 0px;
+    }
+    
+    .wall {
+        background: url('../img/intro-bg.jpg') no-repeat center center;
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        background-size: cover;
+    }
+    
+    input {
+        background: #d9d9d9;
+        border-radius: 5px;
+        width: 28%;
+        height: 38px;
+        font-size: 150%;
+        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    h1 {
+        color: #DD0E1C;
+        text-shadow: 1px 2px 3px #666;
+    }
+    
+    .btn {
+        text-align: center;
+    }
+    
+    #description {
+        text-align: justify;
+    }
+    
+    #author {
+        float: right;
+    }
+    
+    .foot {
+        color: #fff;
+        clear: both;
+        width: 100%;
+        background-color: #DD0E1C;
+        padding-top: 0.5%;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .form {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .navimg {
+        width: 4%;
+        margin-right: 1%;
+        margin-top: 3px;
+    }
+    
+    .nav-header {
+        display: inline-block;
+    }
+    /* -------------------------- */
+    
+    .my-navbar {
+        margin: 0;
+        border: 0px;
+        border-bottom: .5px solid #DD0E1C;
+        border-radius: 0px;
+    }
+    
+    .navbar-inverse {
+        background-color: #fff;
+        border-color: #DD0E1C;
+    }
+    
+    .navbar-inverse .navbar-brand {
+        color: #DD0E1C;
+    }
+    
+    .navbar-inverse .navbar-brand:hover,
+    .navbar-inverse .navbar-brand:focus {
+        color: #ff9999;
+        background-color: transparent;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .navimg {
+            visibility: hidden;
+        }
+    }
+
+    .info-details {
+        font-weight: normal;
+    }
+
+    .github-links {
+        color: white;
+    }
+
+    .github-links:hover {
+        color: white;
+    }
+
+    .company-logo {
+        width: 100px;
+    }
+    
+    #offers {
+        padding: 15px;
+    }
+
+    #sub-info {
+        margin-bottom: 1%;
+    }
+
+    #inputresults {
+        margin-top: 0px;
+    }

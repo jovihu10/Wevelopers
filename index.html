@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="wevelopersApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wevelopers</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="css/style.css" />
+
+
+</head>
+
+<body>
+    <nav class="my-navbar navbar navbar-inverse" role="navigation">
+        <div class="container"  style="display: inline-block">
+            <div class="navbar-header">
+                <img class="navimg pull-left" src="img/WEVELOPER_LOGO.png">
+                <a class="navbar-brand badmargin" href="#">Wevelopers</a>
+            </div>
+        </div>
+    </nav>
+    <ng-view></ng-view>
+    <footer class="foot container-fluid">
+        <p>Copyright &copy; WEVELOPERS 2017 <span id = "author" ><a class="github-links" href="https://github.com/yasminagavalda">Yasmina Gavaldà</a> · <a class="github-links" href="https://github.com/jovihu10">Joel Vila</a> · <a class="github-links" href="https://github.com/MarcRosell">Marc Rosell</a> </span></p>
+    </footer>
+    <!-- ANGULAR MODULE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+
+    <!-- MAIN MODULE -->
+    <script src="js/app.js"></script>
+
+    <!-- @begin ROUTES -->
+
+        <!-- HOME -->
+        <script src="js/routes/home/controller.js"></script>
+        <script src="js/routes/home/config.js"></script>
+
+        <!-- SEARCH RESULTS -->
+        <script src="js/routes/results/controller.js"></script>
+        <script src="js/routes/results/config.js"></script>
+
+        <!-- DETAILS -->
+        <script src="js/routes/details/config.js"></script>
+        <script src="js/routes/details/controller.js"></script>
+
+    <!-- @end ROUTES -->
+
+    <!-- SERVICES -->
+    <script src="js/factory/factory.js"></script>
+
+</body>
+</html>
+
+
