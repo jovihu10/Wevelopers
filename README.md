@@ -16,10 +16,11 @@ Technologies: HTML5, CSS3, JavaScript, Angular 1.6.4, Bootstrap.
 
 https://yasminagavalda.github.io/wevelopers/
 
-Developed by: 
+Developed by:
+- Joel Vila: https://github.com/jovihu10 
 - Yasmina Gavaldà: https://github.com/yasminagavalda
 - Marc Rossell: https://github.com/MarcRosell
-- Joel Vila: https://github.com/jovihu10
+
 
 
 
